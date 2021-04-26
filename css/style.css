@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.p-ab{
+    position: absolute;
+}
+
+.container{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px ;
+    width: 940px;
+    height: 900px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.second-row{
+    position: absolute;
+    top:480px;
+}
+
+[class^="img-"]{
+
+  margin-left: 15px;
+  width: 250px;
+  height: 300px;
+}
+
+[classˆ="img-"], img {
+    width: 100%;
+    height: auto;  
+  }
+
+  #prezzo{
+      font-size: 12px;
+      color: crimson;
+  }
+
+  .info-foto-green{
+      background-color: rgb(3, 180, 3);
+  }
