@@ -37,7 +37,7 @@
     top:480px;
 }
 
-[class^="img-"]{
+[class^="img-"] {
 position: relative;
   margin-left: 15px;
   width: 250px;
@@ -86,15 +86,4 @@ position: relative;
         
     }
 
-    /* .img-hover {
-        position: absolute;
-        margin-left: 15px;
-        width: 250px;
-        height: auto;
-        background-image: url(/img/1-hover.webp);
-    }
-
-       
-    .img-hover:hover {
-        display:none;
-    }  */
+    
