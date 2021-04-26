@@ -14,6 +14,10 @@
     float: left;
 }
 
+.fr {
+    float: right;
+}
+
 .p-ab{
     position: absolute;
 }
@@ -24,7 +28,7 @@
     margin-left: 10px ;
     width: 940px;
     height: 900px;
-    border: 1px solid black;
+    
     position: relative;
 }
 
@@ -34,7 +38,7 @@
 }
 
 [class^="img-"]{
-
+position: relative;
   margin-left: 15px;
   width: 250px;
   height: 300px;
@@ -53,3 +57,44 @@
   .info-foto-green{
       background-color: rgb(3, 180, 3);
   }
+
+  .cuore{
+      position: absolute;
+      right: 3px ;
+      top:10px;
+    }
+
+    .sconto-red{
+        position: absolute;
+        background-color: red;
+        top:340px;
+        
+    }
+
+    .sost-green{
+        position: absolute;
+        background-color: rgb(63, 218, 16);
+        top:340px;
+        left:40px;
+        
+    }
+
+    .sost-green-2{
+        position: absolute;
+        background-color: rgb(63, 218, 16);
+        top:340px;
+        
+    }
+
+    /* .img-hover {
+        position: absolute;
+        margin-left: 15px;
+        width: 250px;
+        height: auto;
+        background-image: url(/img/1-hover.webp);
+    }
+
+       
+    .img-hover:hover {
+        display:none;
+    }  */
